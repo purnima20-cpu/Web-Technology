@@ -4,11 +4,11 @@ This repository contains basic HTML lab exercises for CSIT Web Technology.
 
 📚 Topics Covered
 
-HTML document structure (skeleton)
+-HTML document structure (skeleton)
 
-Tags and attributes
+-Tags and attributes
 
-Block vs Inline elements
+-Block vs Inline elements
 
 Formatting tags
 
