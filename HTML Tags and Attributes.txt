@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tags and Attributes Example</title>
+  </head>
+  <body>
+    <h1 align="center">HTML Example</h1>
+
+    <p style="color: blue">This is a paragraph with a style attribute.</p>
+
+    <a href="https://www.google.com" target="_blank">
+      Click here to open Google
+    </a>
+
+    <br /><br />
+
+    <img
+      src="https://via.placeholder.com/150"
+      alt="Sample Image"
+      width="150"
+      height="150"
+    />
+  </body>
+</html>
