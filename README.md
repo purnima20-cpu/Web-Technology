@@ -2,7 +2,7 @@
 
 This repository contains basic HTML lab exercises for CSIT Web Technology.
 
-📚 Topics Covered.
+📚 Topics Covered
 
 -HTML document structure (skeleton)
 
