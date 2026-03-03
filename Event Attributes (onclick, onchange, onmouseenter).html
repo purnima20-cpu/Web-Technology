@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Events Example</title>
+    <script>
+        function showMessage() {
+            alert("Button Clicked!");
+        }
+
+        function changeText() {
+            document.getElementById("demo").innerHTML = "Value Changed!";
+        }
+
+        function hoverEffect() {
+            alert("Mouse Entered!");
+        }
+    </script>
+</head>
+<body>
+
+<button onclick="showMessage()">Click Me</button><br><br>
+
+<select onchange="changeText()">
+    <option>Option 1</option>
+    <option>Option 2</option>
+</select>
+
+<p id="demo"></p>
+
+<div onmouseenter="hoverEffect()" style="background-color:lightblue; width:200px;">
+    Hover over me
+</div>
+
+</body>
+</html>
