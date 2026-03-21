@@ -1,0 +1,27 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Array of Objects in JavaScript</title>  
+</head>  
+<body>  
+    <h1>Array of Objects in JavaScript</h1>  
+    <ul id="people-list"></ul>  
+       <script>  
+        let people = [  
+            { id: 1, name: "Purnima Bohara",age:21}, 
+            { id: 2, name: "Kritisha Bhuju",age:22}, 
+            { id: 3, name: "Ruchi Dumaru", age: 23 },  
+            { id: 4, name: "Diya Chimariya", age: 24 }  
+        ];  
+        let peopleList = document.getElementById("people-list");  
+        people.forEach(function(person) {  
+            let listItem = document.createElement("li");  
+            listItem.textContent = `ID: ${person.id}, Name: ${person.name}, Age:  
+${person.age}`;  
+            peopleList.appendChild(listItem);  
+        });  
+    </script>  
+</body>  
+</html> 

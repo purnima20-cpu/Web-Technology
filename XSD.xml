@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>   
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">   
+  <xs:element name="students" type="StudentsType" />   
+  <xs:complexType name="StudentsType">   
+    <xs:sequence>   
+      <xs:element name="student" type="StudentType" minOccurs="1"  
+maxOccurs="unbounded"   
+/>   
+    </xs:sequence>   
+  </xs:complexType>   
+  <xs:complexType name="StudentType">   
+    <xs:sequence>   
+      <xs:element name="name" type="NameType" />   
+      <xs:element name="email" type="xs:string" />   
+      <xs:element name="age" type="xs:positiveInteger" />   
+    </xs:sequence>   
+  </xs:complexType>   
+  <xs:simpleType name="NameType">   
+    <xs:restriction base="xs:string">   
+      <xs:attribute name="id" type="xs:positiveInteger" use="required" />   
+    </xs:restriction>   
+  </xs:simpleType>   
+</xs:schema> 

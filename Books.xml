@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+    <book id="b1">
+        <title>Harry Potter and the Philosopher's Stone</title>
+        <author>J.K. Rowling</author>
+        <genre>Fantasy</genre>
+        <price>29.99</price>
+        <publish_date>1997-06-26</publish_date>
+    </book>
+
+    <book id="b2">
+        <title>The Hobbit</title>
+        <author>J.R.R. Tolkien</author>
+        <genre>Fantasy</genre>
+        <price>25.99</price>
+        <publish_date>1937-09-21</publish_date>
+    </book>
+
+    <book id="b3">
+        <title>1984</title>
+        <author>George Orwell</author>
+        <genre>Dystopian</genre>
+        <price>19.99</price>
+        <publish_date>1949-06-08</publish_date>
+    </book>
+</bookstore>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>JavaScript Objects</title>  
+</head>  
+<body>  
+    <h1>Objects in JavaScript</h1>  
+     <p id="object-literal"></p>  
+    <p id="new-object"></p>  
+    <p id="constructor-function"></p>  
+    <script>  
+        // 1. Object Literal Notation  
+        let person1 = {  
+            firstName: "Purnima", 
+            lastName: "Bohara", 
+            age: 21  
+        };  
+        document.getElementById("object-literal").textContent =   
+            `Person 1: ${person1.firstName} ${person1.lastName}, Age:  
+${person1.age}`;  
+        let person2 = new Object();  
+        person2.firstName = "Kritisha"; 
+        person2.lastName = "Bhuju"; 
+        person2.age = 22; 
+        document.getElementById("new-object").textContent =   
+            `Person 2: ${person2.firstName} ${person2.lastName}, Age:  
+${person2.age}`;  
+      function Person(firstName, lastName, age) {  
+            this.firstName = firstName;  
+            this.lastName = lastName;  
+            this.age = age;  
+        }  
+          let person3 = new Person("Ruchi", "Dumaru", 23);  
+        document.getElementById("constructor-function").textContent =   
+            `Person 3: ${person3.firstName} ${person3.lastName}, Age:  
+${person3.age}`;  
+    </script>  
+</body>  
+</html> 

@@ -1,14 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Upload Image</title>
-</head>
-<body>
-
-<form>
-    Upload Image:
-    <input type="file" accept="image/*">
-</form>
-
-</body>
-</html>
+<!DOCTYPE html>   
+<html>   
+<head>   
+<title>File Upload Form</title>   
+</head>   
+<body>   
+<h2>Image Upload Form</h2>   
+<form action="/upload" method="post">   
+<label for="image">Choose an image file:</label>  
+<input type="file" id="image" name="image" accept="image/*" required>   
+<br><br>   
+<input type="submit" value="Upload">   
+</form>   
+<p><i>By Purnima Bohara.</i><p>   
+</body>   
+</html>  

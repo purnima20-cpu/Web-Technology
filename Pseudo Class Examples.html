@@ -1,20 +1,34 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-a:hover {
-  color: red;
-}
-
-input:focus {
-  background-color: lightblue;
-}
-</style>
-</head>
-<body>
-
-<a href="#">Hover Me</a><br><br>
-<input type="text" placeholder="Click me">
-
-</body>
-</html>
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Pseudo-Class Examples</title>  
+    <style>  
+        a:hover {  
+            color: red;  
+            text-decoration: underline;  
+        }  
+        a:visited {  
+            color: purple;  
+        }  
+        div p:first-child {  
+            font-weight: bold;  
+        } 
+           input:focus {  
+            background-color: lightyellow;  
+            border: 2px solid blue;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <h1>Pseudo-Class Examples</h1>  
+    <p>This is a <a href="#">link</a> with a hover effect.</p>  
+    <p>Here’s another <a href="#">visited link</a> example.</p>  
+    <div>  
+        <p>This is the first paragraph inside a div.</p>  
+        <p>This is the second paragraph inside the same div.</p>  
+    </div>  
+    <input type="text" placeholder="Click here to focus">  
+</body>  
+</html> 
